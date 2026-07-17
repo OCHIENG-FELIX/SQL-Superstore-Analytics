@@ -29,3 +29,19 @@ JOIN Order_Details od
     ON o.Order_ID = od.Order_ID
 GROUP BY Year, Month
 ORDER BY Year , Month;
+/*
+==========================================================
+Business Insight
+
+Monthly sales analysis reveals fluctuations in
+business performance throughout the year, allowing
+management to identify periods of strong and weak
+sales activity.
+
+Recommendation
+
+Monitor monthly sales trends regularly to identify
+declining performance early and implement timely
+marketing, inventory, or operational adjustments.
+==========================================================
+*/
