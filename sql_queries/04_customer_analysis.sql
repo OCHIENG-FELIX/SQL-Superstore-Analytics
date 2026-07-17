@@ -31,4 +31,19 @@ JOIN Order_Details od
     ON o.Order_ID = od.Order_ID
 GROUP BY c.Customer_ID,c.Customer_Name
 ORDER BY Customer_Rank;
+/*
+==========================================================
+Business Insight
 
+Customer purchasing behavior varies significantly.
+A relatively small group of customers contributes
+a substantial portion of company revenue and profit.
+
+Recommendation
+
+Develop customer loyalty programs for high-value
+customers while creating personalized marketing
+campaigns to encourage increased purchasing among
+other customer segments.
+==========================================================
+*/
