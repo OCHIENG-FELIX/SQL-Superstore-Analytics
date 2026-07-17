@@ -59,3 +59,23 @@ FROM ParetoMetrics
 SELECT *
 FROM ParetoAnalysis
 ORDER BY Total_Profit DESC;
+/*
+==========================================================
+Business Insight
+
+The Pareto Analysis confirmed that a relatively
+small percentage of customers contributes the
+majority of company profit.
+
+This demonstrates the importance of retaining
+high-value customers.
+
+Recommendation
+
+Prioritize customer retention initiatives,
+personalized services, and loyalty rewards for
+top-performing customers while developing strategies
+to improve profitability across the remaining
+customer base.
+==========================================================
+*/
