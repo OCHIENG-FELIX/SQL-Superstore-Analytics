@@ -43,4 +43,21 @@ ROUND(
 ) AS YoY_Sales_Growth_Percent
 FROM YearlyMetrics
 ORDER BY Year;
+/*
+==========================================================
+Business Insight
 
+Year-over-Year analysis measures long-term business
+growth by comparing annual sales performance.
+
+It highlights whether the business is expanding,
+stagnating, or declining over time.
+
+Recommendation
+
+Management should use Year-over-Year growth as a
+strategic performance indicator when evaluating
+business expansion, investment decisions, and
+long-term planning.
+==========================================================
+*/
