@@ -29,3 +29,19 @@ SELECT
 FROM Order_Details
 GROUP BY Discount
 ORDER BY Discount DESC;
+/*
+==========================================================
+Business Insight
+
+Higher discount levels significantly reduce
+profitability. Discounts above approximately 40%
+consistently generate negative profit margins,
+indicating that excessive discounting erodes profits.
+
+Recommendation
+
+Review and optimize discount policies by introducing
+approval limits for large discounts and balancing
+sales growth with sustainable profitability.
+==========================================================
+*/
