@@ -50,3 +50,22 @@ ROUND(
 ) AS MoM_Sales_Growth_Percent
 FROM MonthlyMetrics
 ORDER BY Year, Month;
+/*
+==========================================================
+Business Insight
+
+The Three-Month Moving Average smooths short-term
+sales fluctuations, making long-term trends easier
+to identify and interpret.
+
+This provides a more stable view of business
+performance than individual monthly sales.
+
+Recommendation
+
+Use moving averages alongside monthly performance
+reports to support forecasting, budgeting, and
+operational planning while minimizing the impact
+of temporary fluctuations.
+==========================================================
+*/
