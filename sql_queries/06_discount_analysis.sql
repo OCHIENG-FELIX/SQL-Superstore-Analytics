@@ -18,3 +18,14 @@ Author: Felix Ochieng'
 Date: July 2026
 ==========================================================
 */
+
+SELECT
+    Discount,
+    COUNT(Order_Detail_ID) AS Number_of_Order_Lines,
+    ROUND(SUM(Sales), 2) AS Total_Sales,
+    ROUND(SUM(Profit), 2) AS Total_Profit,
+    ROUND(SUM(Profit) / COUNT(Order_Detail_ID), 2) AS Average_Profit_Per_Order_Line,
+    ROUND(SUM(Profit) / SUM(Sales) * 100, 2) AS Profit_Margin_Percent
+FROM Order_Details
+GROUP BY Discount
+ORDER BY Discount DESC;
