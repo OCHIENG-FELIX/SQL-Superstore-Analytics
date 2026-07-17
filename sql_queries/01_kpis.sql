@@ -19,3 +19,12 @@ Author: Felix Ochieng'
 Date: July 2026
 ==========================================================
 */
+
+SELECT
+    ROUND(SUM(Sales), 2) AS Total_Sales,
+    ROUND(SUM(Profit), 2) AS Total_Profit,
+    SUM(Quantity) AS Total_Quantity_Sold,
+    COUNT(DISTINCT Order_ID) AS Total_Orders,
+    ROUND((SUM(Profit) / SUM(Sales)) * 100, 2) AS Profit_Margin_Percent
+FROM Order_Details;
+
