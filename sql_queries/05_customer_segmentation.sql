@@ -61,3 +61,21 @@ SELECT
     END AS Customer_Segment
 FROM RankedCustomers
 ORDER BY Total_Profit DESC;
+/*
+==========================================================
+Business Insight
+
+Customers were successfully segmented into VIP,
+Regular, and Low Value groups based on profitability.
+
+This segmentation provides a structured approach for
+customer relationship management.
+
+Recommendation
+
+Reward VIP customers with exclusive benefits,
+strengthen engagement with Regular customers,
+and design promotional campaigns to encourage
+greater purchasing activity among Low Value customers.
+==========================================================
+*/
