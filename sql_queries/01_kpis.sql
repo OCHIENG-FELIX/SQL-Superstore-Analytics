@@ -28,3 +28,21 @@ SELECT
     ROUND((SUM(Profit) / SUM(Sales)) * 100, 2) AS Profit_Margin_Percent
 FROM Order_Details;
 
+/*
+==========================================================
+Business Insight
+
+Executive KPIs provide a high-level summary of overall
+business performance, including total sales, total
+profit, order volume, quantity sold, and profit margin.
+
+These metrics serve as the primary indicators of
+organizational performance.
+
+Recommendation
+
+Management should monitor these KPIs regularly through
+interactive dashboards to track business performance,
+identify trends, and support strategic decision-making.
+==========================================================
+*/
