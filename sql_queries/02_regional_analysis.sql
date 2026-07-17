@@ -32,4 +32,22 @@ JOIN Locations l
     ON o.Location_Key = l.Location_Key
 GROUP BY l.Region
 ORDER BY Total_Sales DESC;
+/*
+==========================================================
+Business Insight
 
+The West region generated the highest sales and profit,
+while the Central region recorded the lowest profit
+margin despite achieving substantial sales.
+
+This indicates that high sales do not always translate
+into strong profitability.
+
+Recommendation
+
+Investigate pricing strategies, operational costs, and
+discount policies within lower-performing regions.
+Replicate successful practices from high-performing
+regions where appropriate.
+==========================================================
+*/
