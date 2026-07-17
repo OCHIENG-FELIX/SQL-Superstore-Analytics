@@ -32,3 +32,22 @@ WITH MonthlyData AS (
 SELECT*   
 FROM MonthlyData
 ORDER BY Month;
+/*
+==========================================================
+Business Insight
+
+Seasonality analysis identified recurring monthly
+sales patterns, indicating periods of consistently
+high and low customer demand.
+
+Understanding these patterns supports better
+resource planning.
+
+Recommendation
+
+Align inventory management, staffing levels,
+marketing campaigns, and promotional activities
+with seasonal demand to maximize revenue and
+improve operational efficiency.
+==========================================================
+*/
